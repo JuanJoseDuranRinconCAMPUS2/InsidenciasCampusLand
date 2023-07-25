@@ -1,0 +1,2 @@
+MY_CONFIG={"hostname": "127.19.8.7", "port":5010}
+MY_CONNECT={"host":"", "user":"", "database": "db_CampusLand", "password": "", "port" : }
