@@ -2,6 +2,7 @@ import dotnev from 'dotenv';
 import express from 'express';
 import CArea from './routes/CArea.js';
 import CCategoriaInc from './routes/CCategoriaInc.js';
+import CTiposInc from './routes/CTiposInc.js';
 console.clear();
 dotnev.config();
 
@@ -11,6 +12,7 @@ CampusApi.use(express.json());
 // ════════ ⋆★⋆ ════════
 CampusApi.use("/Area", CArea);
 CampusApi.use("/CategoriaInc", CCategoriaInc);
+CampusApi.use("/TiposInc", CTiposInc);
 // ════════ ⋆★⋆ ════════
 
 const config = JSON.parse(process.env.MY_CONFIG);

@@ -13,3 +13,9 @@ INSERT INTO Area (A_Id, A_Nombre, A_Descripcion) VALUES
 INSERT INTO categoria_inc (Cat_Id, Cat_Nombre) VALUES
     (1, 'Hardware'),
     (2, 'Software');
+
+/* Insercion de data a la base de datos de las tipos de insidencias de CAMPUSLAND */
+INSERT INTO tipo_inc (Tip_Id, Tip_Nombre) VALUES
+    (1, 'Leve'),
+    (2, 'Moderada'),
+    (3, 'Critica');
